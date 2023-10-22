@@ -6,7 +6,7 @@ The foreign key detection model is based on the
 
 
 ## Data Preparation
-The code for raining data preparation, based on the SchemaPile dataset, can be found here:
+The code for training data preparation, based on the SchemaPile dataset, can be found here:
 
 [experiments/foreign_key_detection/training_data_prep_schemapile.ipynb](experiments/foreign_key_detection/training_data_prep_schemapile.ipynb)
 
