@@ -4,6 +4,9 @@
 The foreign key detection model is based on the 
 [bigcode/starcoder (huggingface)](https://huggingface.co/bigcode/starcoder) model.
 
+We provide the finetuned model in huggingface transformers format below: 
+
+[starcoder-schemapile-tar.gz](https://figshare.com/s/766cd2980ba146f3d23a)
 
 ## Data Preparation
 The code for training data preparation, based on the SchemaPile dataset, can be found here:
