@@ -1,5 +1,7 @@
 # CSV Header Detection
 
-In addition to the [experiment code](experiments/csv_header_detection/detect_headers_by_lookup.ipynb),
-we also provide the [CSV files and annotations](experiments/csv_header_detection/annotated_csvs.tar.gz)
-used for evaluation. 
+We provide an [example implementation](experiments/csv_header_detection/detect_headers_by_lookup.ipynb) of the CSV header detection method described in the paper.
+
+## Pollock Benchmark
+
+We provide the code of our [schemapile-augmentation](experiments/csv_header_detection/pollock-schemapile-augmentation/pycsv.py) method that was used in the Pollock experiment.

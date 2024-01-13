@@ -6,7 +6,7 @@ The foreign key detection model is based on the
 
 We provide the finetuned model in huggingface transformers format below: 
 
-[starcoder-schemapile-tar.gz](https://figshare.com/s/766cd2980ba146f3d23a)
+[starcoder-schemapile.tar.gz](https://figshare.com/s/766cd2980ba146f3d23a)
 
 ## Data Preparation
 The code for training data preparation, based on the SchemaPile dataset, can be found here:
@@ -29,5 +29,13 @@ Hyperparameters:
 - warmup_ratio: 0.03
 - weight_decay: 0.0
 
+## t5-base-schemapile
 
+We also provide a model based on the [t5-base](https://huggingface.co/t5-base) model, which was trained on the SchemaPile dataset.
+
+[t5-base-schemapile.zip](https://figshare.com/s/5b7d455d682a811db829)
+
+## Valentine Benchmark
+
+Implementation and evaluation code for the [valentine-schemapile-ensemble](experiments/foreign_key_detection/valentine-schemapile-ensemble) method.
 
