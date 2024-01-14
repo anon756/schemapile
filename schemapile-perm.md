@@ -2,8 +2,8 @@
 
 ## SchemaPile-Perm
 We provide the fully-parsed and ready-to-use subset of SchemaPile
-as JSON-file, containing all schemas and data extracted from permissively 
-licensed SchemaPile SQL files:
+as JSON-file, containing all schemas and data extracted from [permissively 
+licensed](data/permissive_licenses.json) SchemaPile SQL files:
 
 [data/schemapile-perm.json.gz](data/schemapile-perm.json.gz)
 
@@ -20,4 +20,5 @@ permissively licensed:
 
 [data/schemapile-perm-files.tar.gz](data/schemapile-perm-files.tar.gz)
 
-Note: License information per file can be found [here](sqlfiles-and-licenses.md)
+Note: License information per file can be found [here](sqlfiles-and-licenses.md).
+The list of permissive licenses was adopted from [BigCode Project/The Stack](https://huggingface.co/datasets/bigcode/the-stack#licensing-information)
